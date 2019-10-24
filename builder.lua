@@ -69,7 +69,7 @@ schDepth = 0
  
 schArray = {}
  
-for line in io.lines(schematicFile) do
+for line in io.lines(/schematics/schematicFile) do
     schWidth = 0
     if tonumber(string.gsub(line, ",", "")) ~= schHeight+1 then
       schDepth=schDepth+1

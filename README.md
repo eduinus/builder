@@ -1,2 +1,2 @@
 # builder
-builds minecraft schematics in-game automagically
+Builds minecraft schematics in-game automagically
